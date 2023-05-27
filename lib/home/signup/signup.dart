@@ -85,7 +85,7 @@ class _SignUPState extends State<SignUP> {
                 padding: const EdgeInsets.all(8.0),
                 child: TextFormField(
                   controller: password,
-                  
+
                   decoration: const InputDecoration(
                     label: Text('Enter Passcode'),
                     labelStyle: TextStyle(

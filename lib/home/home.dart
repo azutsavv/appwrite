@@ -11,7 +11,7 @@ class homepage extends StatelessWidget {
     var ht = MediaQuery.of(context).size.height;
     var wd = MediaQuery.of(context).size.width;
     return Scaffold(
-      appBar: AppBar(
+    appBar: AppBar(
         title: const Text('Using AppWrite'),
         centerTitle: true,
       ),
