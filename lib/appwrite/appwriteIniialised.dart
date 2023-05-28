@@ -11,6 +11,7 @@ class appwriteprovider {
     .setSelfSigned(status: true);
 
     final databases = Databases(client);
+    final account = Account(client);
 
     try {
         final document = databases.createDocument(
